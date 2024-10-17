@@ -1,0 +1,56 @@
+
+
+
+
+.form_group {
+  position: relative; }
+
+.form_control {
+  width: 100%;
+  border: none; }
+
+textarea.form_control {
+  padding-top: 15px;
+  display: inherit; }
+
+.p-r {
+  position: relative; }
+
+.z-1 {
+  z-index: 1; }
+
+.z--1 {
+  z-index: -1; }
+
+.z-2 {
+  z-index: 2; }
+
+/*====== Search Modal ======*/
+.search-modal {
+  background-color: rgba(13, 18, 23, 0.95); }
+  .search-modal .modal-content {
+    padding: 15px 30px;
+    background-color: transparent;
+    border: none; }
+    .search-modal .modal-content label {
+      position: absolute;
+      top: 15px;
+      right: 0;
+      color: #fff; }
+    .search-modal .modal-content .form_control {
+      padding: 15px 30px 15px 0;
+      background-color: transparent;
+      color: #fff;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.7); }
+      .search-modal .modal-content .form_control::-webkit-input-placeholder {
+        color: #fff; }
+      .search-modal .modal-content .form_control:-ms-input-placeholder {
+        color: #fff; }
+      .search-modal .modal-content .form_control::-ms-input-placeholder {
+        color: #fff; }
+      .search-modal .modal-content .form_control::placeholder {
+        color: #fff; }
+      .search-modal .modal-content .form_control:focus {
+        background-color: transparent; }
+
+
